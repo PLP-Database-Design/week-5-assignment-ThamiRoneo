@@ -27,6 +27,7 @@ This demonstrates the cconnection of MySQL database and Node.js to create a simp
 
    
    // Question 1 goes here
+   
 
 
    // Question 2 goes here
