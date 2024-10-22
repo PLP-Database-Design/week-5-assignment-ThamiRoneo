@@ -25,7 +25,7 @@ db.connect((err) => {
 })
    
    // Question 1 goes here
-   /* app.get('', (req, res) => {
+      app.get('', (req, res) => {
           const getPatients = 'SELECT patient_id, first_name, last_name, date_of_birth FROM patients';
           
           db.query(getPatients, (err, results) => {
@@ -34,11 +34,11 @@ db.connect((err) => {
                     }
                     res.status(200).send(results)
           })
-       }) */
+       })
     
 
    // Question 2 goes here
-      /* app.get('', (req, res) => {
+      app.get('', (req, res) => {
       const getProviders = 'SELECT first_name, last_name, provider_specialty FROM providers';
 
       db.query(getProviders, (err, results) => {
@@ -47,7 +47,7 @@ db.connect((err) => {
           }
           res.status(300).send(results)
         })
-       }) */
+       })
 
    // Question 3 goes here
      app.get('', (req, res) => {
@@ -62,7 +62,7 @@ db.connect((err) => {
     })
 
    // Question 4 goes here
-    /* app.get('', (req, res) => {
+    app.get('', (req, res) => {
       const providerSpecialty = 'SELECT * FROM providers WHERE provider_specialty = \'Pediatrics\'';
 
       db.query(providerSpecialty, (err, results) => {
@@ -71,7 +71,7 @@ db.connect((err) => {
         }
         res.status(300).send(results)
       })
-    }) */
+    }) 
    
 
    // listen to the server
